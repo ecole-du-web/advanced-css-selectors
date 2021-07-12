@@ -1,0 +1,56 @@
+/*  The "And" selector [,] */
+
+h1, h2, h3 {
+  background: gold;
+}
+
+
+
+/* The direct child [>] */
+
+.container > .txt {
+  background: crimson;
+}
+
+
+/* The next adjacent element [+] */
+
+.description + .presentation {
+  background: teal;
+}
+
+
+
+/* The tild [~] */
+
+
+.main-heading ~ .info {
+  background: darksalmon;
+}
+
+
+
+/* The attribute selector [input[type="text"]] */
+
+
+input[type="text"] {
+  background: firebrick;
+}
+
+
+
+/* The focus-within pseudo-class */
+
+
+form:focus-within {
+  background: #000;
+}
+
+
+
+/* The not selector [el:not(selector)] */
+
+
+.letter:not(:nth-child(odd)){
+  background: indigo;
+}
